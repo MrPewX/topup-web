@@ -780,7 +780,7 @@ const GAMES = [
                     { name: '6000 PB Cash', price: 47000 },
                     { name: '12000 PB Cash', price: 94651 },
                     { name: '24000 PB Cash', price: 193751 },
-                    { name: '36000 PB Cash', price: 300850 },
+                    { name: '36000 PB Cash', price: 286850 },
                     { name: '60000 PB Cash', price: 474051 }
                 ]
             }
