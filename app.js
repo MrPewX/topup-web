@@ -70,18 +70,18 @@ const GAMES = [
             {
                 name: 'Bonds & Packs',
                 items: [
-                    { name: 'Pilihan Pemula', price: 14214 },
-                    { name: '60 Bonds', price: 15757 },
-                    { name: 'Kotak Anti Peluru 30 Hari', price: 38850 },
-                    { name: 'Battle Pass Lanjutan', price: 62420 },
-                    { name: 'Percobaan Elite 30 Hari', price: 66910 },
-                    { name: '310 Bonds', price: 69878 },
-                    { name: 'Kotak Komposit 30 Hari', price: 111589 },
-                    { name: '630 Bonds', price: 136862 },
-                    { name: 'Battle Pass Premium', price: 177449 },
-                    { name: '1.580 Bonds', price: 337379 },
-                    { name: '3.200 Bonds', price: 679850 },
-                    { name: '6.500 Bonds', price: 1.360947 }
+                    { name: 'Pilihan Pemula', price: 13214 },
+                    { name: '60 Bonds', price: 14757 },
+                    { name: 'Kotak Anti Peluru 30 Hari', price: 37850 },
+                    { name: 'Battle Pass Lanjutan', price: 61420 },
+                    { name: 'Percobaan Elite 30 Hari', price: 65910 },
+                    { name: '310 Bonds', price: 68878 },
+                    { name: 'Kotak Komposit 30 Hari', price: 120548 },
+                    { name: '630 Bonds', price: 148349 },
+                    { name: 'Battle Pass Premium', price: 192994 },
+                    { name: '1.580 Bonds', price: 368917 },
+                    { name: '3.200 Bonds', price: 745636 },
+                    { name: '6.500 Bonds', price: 1494842 }
                 ]
             }
         ]
@@ -100,12 +100,12 @@ const GAMES = [
             {
                 name: 'Vouchers',
                 items: [
-                    { name: '40 Vouchers', price: 11655 },
-                    { name: '90 Vouchers', price: 20709 },
-                    { name: '230 Vouchers', price: 47873 },
-                    { name: '470 Vouchers', price: 92115 },
-                    { name: '950 Vouchers', price: 177825 },
-                    { name: '1430 Vouchers', price: 271094 }
+                    { name: '40 Vouchers', price: 10655 },
+                    { name: '90 Vouchers', price: 19709 },
+                    { name: '230 Vouchers', price: 46873 },
+                    { name: '470 Vouchers', price: 99127 },
+                    { name: '950 Vouchers', price: 193408 },
+                    { name: '1430 Vouchers', price: 296004 }
                 ]
             }
         ]
@@ -124,8 +124,8 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '42 Diamonds', price: 15500 },
-                    { name: '297 Diamonds', price: 105000 }
+                    { name: '42 Diamonds', price: 14500 },
+                    { name: '297 Diamonds', price: 113301 }
                 ]
             }
         ]
@@ -144,16 +144,16 @@ const GAMES = [
             {
                 name: 'Gold & Pass',
                 items: [
-                    { name: 'Ultra Skin Lucky Chest', price: 8504 },
-                    { name: '100 Gold', price: 14096 },
-                    { name: 'Level Up Pass', price: 27254 },
-                    { name: '300 Gold', price: 37741 },
-                    { name: 'Strike Pass Elite', price: 52263 },
-                    { name: '500 Gold', price: 61470 },
-                    { name: 'Strike Pass Elite+', price: 114748 },
-                    { name: '1.000 Gold', price: 121464 },
-                    { name: '2.000 Gold', price: 239653 },
-                    { name: '5.000 Gold', price: 595177 }
+                    { name: 'Ultra Skin Lucky Chest', price: 7504 },
+                    { name: '100 Gold', price: 13096 },
+                    { name: 'Level Up Pass', price: 26254 },
+                    { name: '300 Gold', price: 36741 },
+                    { name: 'Strike Pass Elite', price: 51263 },
+                    { name: '500 Gold', price: 60470 },
+                    { name: 'Strike Pass Elite+', price: 124023 },
+                    { name: '1.000 Gold', price: 131411 },
+                    { name: '2.000 Gold', price: 261419 },
+                    { name: '5.000 Gold', price: 652495 }
                 ]
             }
         ]
@@ -172,15 +172,15 @@ const GAMES = [
             {
                 name: 'CP',
                 items: [
-                    { name: '32 CP', price: 6748 },
-                    { name: '63 CP', price: 11503 },
-                    { name: '128 CP', price: 20709 },
-                    { name: '321 CP', price: 47773 },
-                    { name: '645 CP', price: 92315 },
-                    { name: '800 CP', price: 111414 },
-                    { name: '1.373 CP', price: 149468 },
-                    { name: '2.059 CP', price: 294825 },
-                    { name: '3.564 CP', price: 459525 }
+                    { name: '32 CP', price: 5748 },
+                    { name: '63 CP', price: 10503 },
+                    { name: '128 CP', price: 19709 },
+                    { name: '321 CP', price: 46773 },
+                    { name: '645 CP', price: 99347 },
+                    { name: '800 CP', price: 120356 },
+                    { name: '1.373 CP', price: 162215 },
+                    { name: '2.059 CP', price: 322108 },
+                    { name: '3.564 CP', price: 503278 }
                 ]
             }
         ]
@@ -199,14 +199,14 @@ const GAMES = [
             {
                 name: 'Silver & FC Points',
                 items: [
-                    { name: '39 Silver', price: 8391 },
-                    { name: '40 FC Points', price: 8441 },
-                    { name: '99 Silver', price: 17292 },
-                    { name: '100 FC Points', price: 17342 },
-                    { name: '499 Silver', price: 76325 },
-                    { name: '520 FC Points', price: 76375 },
-                    { name: '999 Silver', price: 151288 },
-                    { name: '1.070 FC Points', price: 151338 }
+                    { name: '39 Silver', price: 7391 },
+                    { name: '40 FC Points', price: 7441 },
+                    { name: '99 Silver', price: 16292 },
+                    { name: '100 FC Points', price: 16342 },
+                    { name: '499 Silver', price: 81758 },
+                    { name: '520 FC Points', price: 81813 },
+                    { name: '999 Silver', price: 164217 },
+                    { name: '1.070 FC Points', price: 164272 }
                 ]
             }
         ]
@@ -225,107 +225,107 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '5 Diamond', price: 2879 },
-                    { name: '10 Diamond', price: 3793 },
-                    { name: '12 Diamond', price: 3950 },
-                    { name: '15 Diamond', price: 4617 },
-                    { name: '20 Diamond', price: 5441 },
-                    { name: '25 Diamond', price: 6244 },
-                    { name: '30 Diamond', price: 7064 },
-                    { name: '50 Diamond', price: 8719 },
-                    { name: '55 Diamond', price: 9563 },
-                    { name: '60 Diamond', price: 10383 },
-                    { name: '70 Diamond', price: 11135 },
-                    { name: '75 Diamond', price: 12003 },
-                    { name: '80 Diamond', price: 12875 },
-                    { name: '90 Diamond', price: 14528 },
-                    { name: '100 Diamond', price: 15344 },
-                    { name: '120 Diamond', price: 17820 },
-                    { name: '130 Diamond', price: 19468 },
-                    { name: '140 Diamond', price: 20002 },
-                    { name: '145 Diamond', price: 21048 },
-                    { name: '150 Diamond', price: 21870 },
-                    { name: '160 Diamond', price: 23615 },
-                    { name: '170 Diamond', price: 24389 },
-                    { name: '180 Diamond', price: 26034 },
-                    { name: '190 Diamond', price: 26807 },
-                    { name: '200 Diamond', price: 28452 },
-                    { name: '210 Diamond', price: 29225 },
-                    { name: '230 Diamond', price: 32535 },
-                    { name: '250 Diamond', price: 35034 },
-                    { name: '280 Diamond', price: 38225 },
-                    { name: '300 Diamond', price: 41516 },
-                    { name: '355 Diamond', price: 47230 },
-                    { name: '360 Diamond', price: 48077 },
-                    { name: '375 Diamond', price: 50516 },
-                    { name: '405 Diamond', price: 53807 },
-                    { name: '425 Diamond', price: 56225 },
-                    { name: '455 Diamond', price: 60164 },
-                    { name: '475 Diamond', price: 62807 },
-                    { name: '500 Diamond', price: 66048 },
-                    { name: '510 Diamond', price: 67693 },
-                    { name: '515 Diamond', price: 68516 },
-                    { name: '520 Diamond', price: 69415 },
-                    { name: '545 Diamond', price: 71807 },
-                    { name: '565 Diamond', price: 74225 },
-                    { name: '600 Diamond', price: 79241 },
-                    { name: '635 Diamond', price: 83255 },
-                    { name: '645 Diamond', price: 84900 },
-                    { name: '655 Diamond', price: 86546 },
-                    { name: '720 Diamond', price: 91775 },
-                    { name: '725 Diamond', price: 93073 },
-                    { name: '740 Diamond', price: 95541 },
-                    { name: '770 Diamond', price: 99283 },
-                    { name: '790 Diamond', price: 101389 },
-                    { name: '800 Diamond', price: 103043 },
-                    { name: '860 Diamond', price: 110250 },
-                    { name: '930 Diamond', price: 119250 },
-                    { name: '1000 Diamond', price: 128250 },
-                    { name: '1050 Diamond', price: 135032 },
-                    { name: '1075 Diamond', price: 137431 },
-                    { name: '1200 Diamond', price: 153705 },
-                    { name: '1215 Diamond', price: 155300 },
-                    { name: '1300 Diamond', price: 166768 },
-                    { name: '1440 Diamond', price: 182300 },
-                    { name: '1450 Diamond', price: 182300 },
-                    { name: '1490 Diamond', price: 188765 },
-                    { name: '1510 Diamond', price: 190597 },
-                    { name: '1580 Diamond', price: 199647 },
-                    { name: '1795 Diamond', price: 227635 },
-                    { name: '1800 Diamond', price: 227634 },
-                    { name: '1875 Diamond', price: 236644 },
-                    { name: '1975 Diamond', price: 249866 },
-                    { name: '2000 Diamond', price: 253093 },
-                    { name: '2100 Diamond', price: 266157 },
-                    { name: '2140 Diamond', price: 271114 },
-                    { name: '2180 Diamond', price: 270875 },
-                    { name: '2210 Diamond', price: 277286 },
-                    { name: '2280 Diamond', price: 285908 },
-                    { name: '2355 Diamond', price: 296263 },
-                    { name: '5600 Diamond', price: 700304 },
-                    { name: '7290 Diamond', price: 906744 }
+                    { name: '5 Diamond', price: 1879 },
+                    { name: '10 Diamond', price: 2793 },
+                    { name: '12 Diamond', price: 2950 },
+                    { name: '15 Diamond', price: 3617 },
+                    { name: '20 Diamond', price: 4441 },
+                    { name: '25 Diamond', price: 5244 },
+                    { name: '30 Diamond', price: 6064 },
+                    { name: '50 Diamond', price: 7719 },
+                    { name: '55 Diamond', price: 8563 },
+                    { name: '60 Diamond', price: 9383 },
+                    { name: '70 Diamond', price: 10135 },
+                    { name: '75 Diamond', price: 11003 },
+                    { name: '80 Diamond', price: 11875 },
+                    { name: '90 Diamond', price: 13528 },
+                    { name: '100 Diamond', price: 14344 },
+                    { name: '120 Diamond', price: 16820 },
+                    { name: '130 Diamond', price: 18468 },
+                    { name: '140 Diamond', price: 19002 },
+                    { name: '145 Diamond', price: 20048 },
+                    { name: '150 Diamond', price: 20870 },
+                    { name: '160 Diamond', price: 22615 },
+                    { name: '170 Diamond', price: 23389 },
+                    { name: '180 Diamond', price: 25034 },
+                    { name: '190 Diamond', price: 25807 },
+                    { name: '200 Diamond', price: 27452 },
+                    { name: '210 Diamond', price: 28225 },
+                    { name: '230 Diamond', price: 31535 },
+                    { name: '250 Diamond', price: 34034 },
+                    { name: '280 Diamond', price: 37225 },
+                    { name: '300 Diamond', price: 40516 },
+                    { name: '355 Diamond', price: 46230 },
+                    { name: '360 Diamond', price: 47077 },
+                    { name: '375 Diamond', price: 49516 },
+                    { name: '405 Diamond', price: 52807 },
+                    { name: '425 Diamond', price: 55225 },
+                    { name: '455 Diamond', price: 59164 },
+                    { name: '475 Diamond', price: 61807 },
+                    { name: '500 Diamond', price: 65048 },
+                    { name: '510 Diamond', price: 66693 },
+                    { name: '515 Diamond', price: 67516 },
+                    { name: '520 Diamond', price: 68415 },
+                    { name: '545 Diamond', price: 76788 },
+                    { name: '565 Diamond', price: 79448 },
+                    { name: '600 Diamond', price: 84966 },
+                    { name: '635 Diamond', price: 89381 },
+                    { name: '645 Diamond', price: 91191 },
+                    { name: '655 Diamond', price: 93001 },
+                    { name: '720 Diamond', price: 98753 },
+                    { name: '725 Diamond', price: 100181 },
+                    { name: '740 Diamond', price: 102896 },
+                    { name: '770 Diamond', price: 107012 },
+                    { name: '790 Diamond', price: 109328 },
+                    { name: '800 Diamond', price: 111148 },
+                    { name: '860 Diamond', price: 119076 },
+                    { name: '930 Diamond', price: 128976 },
+                    { name: '1000 Diamond', price: 138875 },
+                    { name: '1050 Diamond', price: 146336 },
+                    { name: '1075 Diamond', price: 148975 },
+                    { name: '1200 Diamond', price: 166876 },
+                    { name: '1215 Diamond', price: 168630 },
+                    { name: '1300 Diamond', price: 181245 },
+                    { name: '1440 Diamond', price: 198331 },
+                    { name: '1450 Diamond', price: 198331 },
+                    { name: '1490 Diamond', price: 205442 },
+                    { name: '1510 Diamond', price: 207457 },
+                    { name: '1580 Diamond', price: 217412 },
+                    { name: '1795 Diamond', price: 248199 },
+                    { name: '1800 Diamond', price: 248198 },
+                    { name: '1875 Diamond', price: 258109 },
+                    { name: '1975 Diamond', price: 272653 },
+                    { name: '2000 Diamond', price: 276203 },
+                    { name: '2100 Diamond', price: 290573 },
+                    { name: '2140 Diamond', price: 296026 },
+                    { name: '2180 Diamond', price: 295763 },
+                    { name: '2210 Diamond', price: 302815 },
+                    { name: '2280 Diamond', price: 312299 },
+                    { name: '2355 Diamond', price: 323690 },
+                    { name: '5600 Diamond', price: 768135 },
+                    { name: '7290 Diamond', price: 995219 }
                 ]
             },
             {
                 name: 'Pass & Membership',
                 items: [
-                    { name: 'Level Up Pass - Level 6', price: 7169 },
-                    { name: 'Level Up Pass - Level 10', price: 10528 },
-                    { name: 'Level Up Pass - Level 15', price: 10528 },
-                    { name: 'Level Up Pass - Level 20', price: 10528 },
-                    { name: 'Level Up Pass - Level 25', price: 10528 },
-                    { name: 'Level Up Pass - Level 30', price: 15672 },
-                    { name: 'Member Mingguan', price: 29701 },
-                    { name: 'Booyah Pass', price: 43739 },
-                    { name: 'Member Mingguan 2X', price: 57770 },
-                    { name: 'Member Bulanan', price: 84352 },
-                    { name: 'Member Mingguan x3', price: 85654 },
-                    { name: 'Member Mingguan x4', price: 113539 },
-                    { name: 'Member Mingguan x5', price: 141424 },
-                    { name: 'Membership Bulanan 2X', price: 168590 },
-                    { name: 'Membership Bulanan x3', price: 251885 },
-                    { name: 'Membership Bulanan x4', price: 335180 },
-                    { name: 'Membership Bulanan x5', price: 418475 }
+                    { name: 'Level Up Pass - Level 6', price: 6169 },
+                    { name: 'Level Up Pass - Level 10', price: 9528 },
+                    { name: 'Level Up Pass - Level 15', price: 9528 },
+                    { name: 'Level Up Pass - Level 20', price: 9528 },
+                    { name: 'Level Up Pass - Level 25', price: 9528 },
+                    { name: 'Level Up Pass - Level 30', price: 14672 },
+                    { name: 'Member Mingguan', price: 28701 },
+                    { name: 'Booyah Pass', price: 42739 },
+                    { name: 'Member Mingguan 2X', price: 56770 },
+                    { name: 'Member Bulanan', price: 90588 },
+                    { name: 'Member Mingguan x3', price: 92020 },
+                    { name: 'Member Mingguan x4', price: 122693 },
+                    { name: 'Member Mingguan x5', price: 153367 },
+                    { name: 'Membership Bulanan 2X', price: 183250 },
+                    { name: 'Membership Bulanan x3', price: 274874 },
+                    { name: 'Membership Bulanan x4', price: 366499 },
+                    { name: 'Membership Bulanan x5', price: 458123 }
                 ]
             }
         ]
@@ -346,19 +346,19 @@ const GAMES = [
             {
                 name: 'RC & Pass',
                 items: [
-                    { name: '80 RC', price: 15250 },
-                    { name: 'Kartu Mingguan', price: 28823 },
-                    { name: '250 RC', price: 43098 },
-                    { name: 'Kartu Bulanan', price: 46195 },
-                    { name: '450 RC', price: 70246 },
-                    { name: 'Quick Glory Pass', price: 71250 },
-                    { name: 'Growth Fund', price: 90317 },
-                    { name: 'Dana Elit Rebate Lv 80', price: 118995 },
-                    { name: 'Glory Pass Premium', price: 134438 },
-                    { name: '920 RC', price: 137213 },
-                    { name: '1.850 RC', price: 272955 },
-                    { name: '2.800 RC', price: 408698 },
-                    { name: '4.750 RC', price: 675050 }
+                    { name: '80 RC', price: 14250 },
+                    { name: 'Kartu Mingguan', price: 27823 },
+                    { name: '250 RC', price: 42098 },
+                    { name: 'Kartu Bulanan', price: 45195 },
+                    { name: '450 RC', price: 75071 },
+                    { name: 'Quick Glory Pass', price: 76175 },
+                    { name: 'Growth Fund', price: 97149 },
+                    { name: 'Dana Elit Rebate Lv 80', price: 128695 },
+                    { name: 'Glory Pass Premium', price: 145682 },
+                    { name: '920 RC', price: 148735 },
+                    { name: '1.850 RC', price: 298051 },
+                    { name: '2.800 RC', price: 447368 },
+                    { name: '4.750 RC', price: 740356 }
                 ]
             }
         ]
@@ -379,12 +379,12 @@ const GAMES = [
             {
                 name: 'Genesis Crystals',
                 items: [
-                    { name: '60 Genesis Crystals', price: 12851 },
-                    { name: '300+30 Genesis Crystals', price: 55621 },
-                    { name: 'Blessing of the Welkin Moon', price: 55721 },
-                    { name: '980+110 Genesis Crystals', price: 166830 },
-                    { name: '1980+260 Genesis Crystals', price: 345621 },
-                    { name: '3280+600 Genesis Crystals', price: 567412 }
+                    { name: '60 Genesis Crystals', price: 11851 },
+                    { name: '300+30 Genesis Crystals', price: 54621 },
+                    { name: 'Blessing of the Welkin Moon', price: 54721 },
+                    { name: '980+110 Genesis Crystals', price: 181314 },
+                    { name: '1980+260 Genesis Crystals', price: 377984 },
+                    { name: '3280+600 Genesis Crystals', price: 621954 }
                 ]
             }
         ]
@@ -403,30 +403,30 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '1000 Diamonds', price: 3833 },
-                    { name: '1200 Diamonds', price: 4502 },
-                    { name: '2.000 Diamond', price: 5416 },
-                    { name: '3.000 Diamond', price: 6999 },
-                    { name: '4.000 Diamond', price: 8582 },
-                    { name: '6.000 Diamond', price: 11748 },
-                    { name: '8.000 Diamond', price: 14935 },
-                    { name: '9.200 Diamond', price: 16994 },
-                    { name: '10.000 Diamond', price: 18080 },
-                    { name: '12.000 Diamond', price: 21270 },
-                    { name: '14.000 Diamond', price: 24412 },
-                    { name: '16.000 Diamond', price: 27578 },
-                    { name: '18.000 Diamond', price: 30744 },
-                    { name: '18.200 Diamond', price: 31460 },
-                    { name: '20.000 Diamond', price: 33910 },
-                    { name: '30.000 Diamond', price: 49740 },
-                    { name: '35.000 Diamond', price: 57655 },
-                    { name: '40.000 Diamond', price: 65570 },
-                    { name: '45.000 Diamond', price: 73485 },
-                    { name: '45.600 Diamond', price: 74990 },
-                    { name: '50.000 Diamond', price: 81400 },
-                    { name: '60.000 Diamond', price: 98230 },
-                    { name: '61.000 Diamond', price: 99980 },
-                    { name: '80.000 Diamond', price: 129890 }
+                    { name: '1000 Diamonds', price: 2833 },
+                    { name: '1200 Diamonds', price: 3502 },
+                    { name: '2.000 Diamond', price: 4416 },
+                    { name: '3.000 Diamond', price: 5999 },
+                    { name: '4.000 Diamond', price: 7582 },
+                    { name: '6.000 Diamond', price: 10748 },
+                    { name: '8.000 Diamond', price: 13935 },
+                    { name: '9.200 Diamond', price: 15994 },
+                    { name: '10.000 Diamond', price: 17080 },
+                    { name: '12.000 Diamond', price: 20270 },
+                    { name: '14.000 Diamond', price: 23412 },
+                    { name: '16.000 Diamond', price: 26578 },
+                    { name: '18.000 Diamond', price: 29744 },
+                    { name: '18.200 Diamond', price: 30460 },
+                    { name: '20.000 Diamond', price: 32910 },
+                    { name: '30.000 Diamond', price: 48740 },
+                    { name: '35.000 Diamond', price: 56655 },
+                    { name: '40.000 Diamond', price: 64570 },
+                    { name: '45.000 Diamond', price: 78634 },
+                    { name: '45.600 Diamond', price: 80289 },
+                    { name: '50.000 Diamond', price: 87340 },
+                    { name: '60.000 Diamond', price: 105854 },
+                    { name: '61.000 Diamond', price: 107779 },
+                    { name: '80.000 Diamond', price: 140679 }
                 ]
             }
         ]
@@ -447,12 +447,12 @@ const GAMES = [
             {
                 name: 'Oneiric Shard',
                 items: [
-                    { name: '60 Oneiric Shard', price: 13293 },
-                    { name: 'Express Supply Pass', price: 55460 },
-                    { name: '300+30 Oneiric Shard', price: 56075 },
-                    { name: '980+110 Oneiric Shard', price: 168514 },
-                    { name: '1980+260 Oneiric Shard', price: 334086 },
-                    { name: '3280+600 Oneiric Shard', price: 574195 }
+                    { name: '60 Oneiric Shard', price: 12293 },
+                    { name: 'Express Supply Pass', price: 54460 },
+                    { name: '300+30 Oneiric Shard', price: 55075 },
+                    { name: '980+110 Oneiric Shard', price: 183166 },
+                    { name: '1980+260 Oneiric Shard', price: 365295 },
+                    { name: '3280+600 Oneiric Shard', price: 629415 }
                 ]
             }
         ]
@@ -471,16 +471,16 @@ const GAMES = [
             {
                 name: 'Tokens',
                 items: [
-                    { name: '16 Tokens', price: 5231 },
-                    { name: '80 Tokens', price: 16603 },
-                    { name: '240 Tokens', price: 44929 },
-                    { name: '400 Tokens', price: 73455 },
-                    { name: '560 Tokens', price: 101938 },
-                    { name: '800 Tokens', price: 144515 },
-                    { name: '1.200 Tokens', price: 215570 },
-                    { name: '2.400 Tokens', price: 428935 },
-                    { name: '4.000 Tokens', price: 713378 },
-                    { name: '8.000 Tokens', price: 1424379 }
+                    { name: '16 Tokens', price: 4231 },
+                    { name: '80 Tokens', price: 15603 },
+                    { name: '240 Tokens', price: 43929 },
+                    { name: '400 Tokens', price: 78601 },
+                    { name: '560 Tokens', price: 109932 },
+                    { name: '800 Tokens', price: 156767 },
+                    { name: '1.200 Tokens', price: 234928 },
+                    { name: '2.400 Tokens', price: 469629 },
+                    { name: '4.000 Tokens', price: 782516 },
+                    { name: '8.000 Tokens', price: 1564617 }
                 ]
             }
         ]
@@ -501,12 +501,12 @@ const GAMES = [
             {
                 name: 'Credits',
                 items: [
-                    { name: '65 Credits', price: 16595 },
-                    { name: '330 Credits', price: 63599 },
-                    { name: '558 Credits', price: 102599 },
-                    { name: '1108 Credits', price: 187293 },
-                    { name: '2268 Credits', price: 417620 },
-                    { name: '3468 Credits', price: 582599 }
+                    { name: '65 Credits', price: 15595 },
+                    { name: '330 Credits', price: 62599 },
+                    { name: '558 Credits', price: 110659 },
+                    { name: '1108 Credits', price: 203823 },
+                    { name: '2268 Credits', price: 457183 },
+                    { name: '3468 Credits', price: 638659 }
                 ]
             }
         ]
@@ -525,11 +525,11 @@ const GAMES = [
             {
                 name: 'Coins',
                 items: [
-                    { name: '300 Coins', price: 37372 },
-                    { name: '600 Coins', price: 72484 },
-                    { name: '1.000 Coins', price: 118464 },
-                    { name: '2.000 Coins', price: 234668 },
-                    { name: '5.000 Coins', price: 583380 }
+                    { name: '300 Coins', price: 36372 },
+                    { name: '600 Coins', price: 77533 },
+                    { name: '1.000 Coins', price: 128111 },
+                    { name: '2.000 Coins', price: 255935 },
+                    { name: '5.000 Coins', price: 639518 }
                 ]
             }
         ]
@@ -548,14 +548,14 @@ const GAMES = [
             {
                 name: 'Wild Cores',
                 items: [
-                    { name: '105 Wild Cores', price: 16090 },
-                    { name: '350 Wild Cores', price: 48150 },
-                    { name: '420 Wild Cores', price: 57175 },
-                    { name: '585 Wild Cores', price: 75375 },
-                    { name: '1135 Wild Cores', price: 139740 },
-                    { name: '1660 Wild Cores', price: 194650 },
-                    { name: '3010 Wild Cores', price: 332040 },
-                    { name: '6210 Wild Cores', price: 689200 }
+                    { name: '105 Wild Cores', price: 15090 },
+                    { name: '350 Wild Cores', price: 47150 },
+                    { name: '420 Wild Cores', price: 56175 },
+                    { name: '585 Wild Cores', price: 80713 },
+                    { name: '1135 Wild Cores', price: 151514 },
+                    { name: '1660 Wild Cores', price: 211916 },
+                    { name: '3010 Wild Cores', price: 363045 },
+                    { name: '6210 Wild Cores', price: 755921 }
                 ]
             }
         ]
@@ -576,22 +576,22 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '5 Diamonds', price: 3405 },
-                    { name: '12 Diamonds', price: 5044 },
-                    { name: '19 Diamonds', price: 6634 },
-                    { name: '28 Diamonds', price: 8799 },
-                    { name: '44 Diamonds', price: 12259 },
-                    { name: '59 Diamonds', price: 16478 },
-                    { name: '85 Diamonds', price: 22991 },
-                    { name: 'Weekly Card', price: 29325 },
-                    { name: '170 Diamonds', price: 42640 },
-                    { name: '240 Diamonds', price: 58800 },
-                    { name: '296 Diamonds', price: 71160 },
-                    { name: '408 Diamonds', price: 95098 },
-                    { name: '568 Diamonds', price: 133708 },
-                    { name: '875 Diamonds', price: 205572 },
-                    { name: '2.010 Diamonds', price: 443210 },
-                    { name: '4.830 Diamonds', price: 1075118 }
+                    { name: '5 Diamonds', price: 2405 },
+                    { name: '12 Diamonds', price: 4044 },
+                    { name: '19 Diamonds', price: 5634 },
+                    { name: '28 Diamonds', price: 7799 },
+                    { name: '44 Diamonds', price: 11259 },
+                    { name: '59 Diamonds', price: 15478 },
+                    { name: '85 Diamonds', price: 21991 },
+                    { name: 'Weekly Card', price: 28325 },
+                    { name: '170 Diamonds', price: 41640 },
+                    { name: '240 Diamonds', price: 57800 },
+                    { name: '296 Diamonds', price: 76076 },
+                    { name: '408 Diamonds', price: 102408 },
+                    { name: '568 Diamonds', price: 144879 },
+                    { name: '875 Diamonds', price: 223930 },
+                    { name: '2.010 Diamonds', price: 485332 },
+                    { name: '4.830 Diamonds', price: 1180430 }
                 ]
             }
         ]
@@ -612,16 +612,16 @@ const GAMES = [
             {
                 name: 'Ruby & Pass',
                 items: [
-                    { name: '60 Ruby', price: 14990 },
-                    { name: '310 Ruby', price: 60062 },
-                    { name: 'Kartu Bulanan', price: 60062 },
-                    { name: 'Support Pass', price: 63804 },
-                    { name: 'Kartu Bulanan Premium', price: 113629 },
-                    { name: 'Support Pass Premium', price: 120683 },
-                    { name: '630 Ruby', price: 124567 },
-                    { name: '1.300 Ruby', price: 225882 },
-                    { name: '3.200 Ruby', price: 579245 },
-                    { name: '6.500 Ruby', price: 1114910 }
+                    { name: '60 Ruby', price: 13990 },
+                    { name: '310 Ruby', price: 59062 },
+                    { name: 'Kartu Bulanan', price: 59062 },
+                    { name: 'Support Pass', price: 62804 },
+                    { name: 'Kartu Bulanan Premium', price: 122792 },
+                    { name: 'Support Pass Premium', price: 130552 },
+                    { name: '630 Ruby', price: 134824 },
+                    { name: '1.300 Ruby', price: 246271 },
+                    { name: '3.200 Ruby', price: 634970 },
+                    { name: '6.500 Ruby', price: 1224201 }
                 ]
             }
         ]
@@ -642,53 +642,53 @@ const GAMES = [
             {
                 name: 'Diamond',
                 items: [
-                    { name: '5 Diamond', price: 3546 },
-                    { name: '10 Diamond', price: 4964 },
-                    { name: '14 Diamond', price: 6042 },
-                    { name: '28 Diamond', price: 9846 },
-                    { name: '36 Diamond', price: 11918 },
-                    { name: '44 Diamond', price: 13666 },
-                    { name: '59 Diamond', price: 17312 },
-                    { name: '70 Diamond', price: 20978 },
-                    { name: '86 Diamond', price: 24997 },
-                    { name: '112 Diamond (Misi Topup 100DM)', price: 31769 },
-                    { name: '140 Diamond', price: 38893 },
-                    { name: '172 Diamond', price: 47057 },
-                    { name: '185 Diamond', price: 51107 },
-                    { name: '222 Diamond', price: 59285 },
-                    { name: '240 Diamond', price: 64090 },
-                    { name: '257 Diamond', price: 68928 },
-                    { name: '284 Diamond (Misi Topup 250DM)', price: 75045 },
-                    { name: '296 Diamond', price: 78065 },
-                    { name: '344 Diamond', price: 91043 },
-                    { name: '355 Diamond', price: 94182 },
-                    { name: '370 Diamond', price: 96593 },
-                    { name: '408 Diamond', price: 106759 },
-                    { name: '429 Diamond', price: 112990 },
-                    { name: '514 Diamond', price: 132818 },
-                    { name: '568 Diamond', price: 144345 },
-                    { name: '600 Diamond', price: 153204 },
-                    { name: '706 Diamond', price: 180753 },
-                    { name: '878 Diamond', price: 220164 },
-                    { name: '963 Diamond', price: 237949 },
-                    { name: '1050 Diamond', price: 259675 },
-                    { name: '1159 Diamond', price: 286916 },
-                    { name: '1220 Diamond', price: 302134 },
-                    { name: '1412 Diamond', price: 350767 },
-                    { name: '1446 Diamond', price: 362763 },
-                    { name: '1506 Diamond', price: 375261 },
-                    { name: '1669 Diamond', price: 421825 },
-                    { name: '1704 Diamond', price: 422583 },
-                    { name: '1830 Diamond', price: 457898 },
-                    { name: '2195 Diamond', price: 518520 },
-                    { name: '2976 Diamond', price: 706941 },
-                    { name: '3073 Diamond', price: 737511 },
-                    { name: '3688 Diamond', price: 883.884 },
-                    { name: '4394 Diamond', price: 1034446 },
-                    { name: '4830 Diamond', price: 1127140 },
-                    { name: '5532 Diamond', price: 1301014 },
-                    { name: '6050 Diamond', price: 1412478 },
-                    { name: '7727 Diamond', price: 1813620 }
+                    { name: '5 Diamond', price: 2546 },
+                    { name: '10 Diamond', price: 3964 },
+                    { name: '14 Diamond', price: 5042 },
+                    { name: '28 Diamond', price: 8846 },
+                    { name: '36 Diamond', price: 10918 },
+                    { name: '44 Diamond', price: 12666 },
+                    { name: '59 Diamond', price: 16312 },
+                    { name: '70 Diamond', price: 19978 },
+                    { name: '86 Diamond', price: 23997 },
+                    { name: '112 Diamond (Misi Topup 100DM)', price: 30769 },
+                    { name: '140 Diamond', price: 37893 },
+                    { name: '172 Diamond', price: 46057 },
+                    { name: '185 Diamond', price: 50107 },
+                    { name: '222 Diamond', price: 58285 },
+                    { name: '240 Diamond', price: 63090 },
+                    { name: '257 Diamond', price: 67928 },
+                    { name: '284 Diamond (Misi Topup 250DM)', price: 80350 },
+                    { name: '296 Diamond', price: 83672 },
+                    { name: '344 Diamond', price: 97948 },
+                    { name: '355 Diamond', price: 101401 },
+                    { name: '370 Diamond', price: 104053 },
+                    { name: '408 Diamond', price: 115235 },
+                    { name: '429 Diamond', price: 122090 },
+                    { name: '514 Diamond', price: 143900 },
+                    { name: '568 Diamond', price: 156580 },
+                    { name: '600 Diamond', price: 166325 },
+                    { name: '706 Diamond', price: 196629 },
+                    { name: '878 Diamond', price: 239981 },
+                    { name: '963 Diamond', price: 259544 },
+                    { name: '1050 Diamond', price: 283443 },
+                    { name: '1159 Diamond', price: 313408 },
+                    { name: '1220 Diamond', price: 330148 },
+                    { name: '1412 Diamond', price: 383644 },
+                    { name: '1446 Diamond', price: 396840 },
+                    { name: '1506 Diamond', price: 410588 },
+                    { name: '1669 Diamond', price: 461808 },
+                    { name: '1704 Diamond', price: 462642 },
+                    { name: '1830 Diamond', price: 501488 },
+                    { name: '2195 Diamond', price: 568172 },
+                    { name: '2976 Diamond', price: 775436 },
+                    { name: '3073 Diamond', price: 809063 },
+                    { name: '3688 Diamond', price: 970073 },
+                    { name: '4394 Diamond', price: 1135691 },
+                    { name: '4830 Diamond', price: 1237654 },
+                    { name: '5532 Diamond', price: 1428916 },
+                    { name: '6050 Diamond', price: 1551526 },
+                    { name: '7727 Diamond', price: 1992783 }
                 ]
             }
         ]
@@ -707,8 +707,8 @@ const GAMES = [
             {
                 name: 'Gems',
                 items: [
-                    { name: '60 Gems', price: 15000 },
-                    { name: '300 Gems', price: 72000 }
+                    { name: '60 Gems', price: 14000 },
+                    { name: '300 Gems', price: 77000 }
                 ]
             }
         ]
@@ -727,12 +727,12 @@ const GAMES = [
             {
                 name: 'Gems & Tokens',
                 items: [
-                    { name: '250 Gems', price: 15550 },
-                    { name: '120 Tokens', price: 34475 },
-                    { name: '800 Gems', price: 36994 },
-                    { name: '1.600 Gems + 75 Tokens', price: 45275 },
-                    { name: '5.000 Gems + 275 Tokens', price: 105875 },
-                    { name: '1.300 Tokens', price: 232875 }
+                    { name: '250 Gems', price: 14550 },
+                    { name: '120 Tokens', price: 33475 },
+                    { name: '800 Gems', price: 35994 },
+                    { name: '1.600 Gems + 75 Tokens', price: 44275 },
+                    { name: '5.000 Gems + 275 Tokens', price: 114263 },
+                    { name: '1.300 Tokens', price: 253963 }
                 ]
             }
         ]
@@ -751,12 +751,12 @@ const GAMES = [
             {
                 name: 'Candies',
                 items: [
-                    { name: '60 Candies', price: 14660 },
-                    { name: '180 Candies', price: 40175 },
-                    { name: '316 Candies', price: 64543 },
-                    { name: '718 Candies', price: 127525 },
-                    { name: '1368 Candies', price: 251896 },
-                    { name: '2118 Candies', price: 374500 }
+                    { name: '60 Candies', price: 13660 },
+                    { name: '180 Candies', price: 39175 },
+                    { name: '316 Candies', price: 63543 },
+                    { name: '718 Candies', price: 138078 },
+                    { name: '1368 Candies', price: 274886 },
+                    { name: '2118 Candies', price: 409751 }
                 ]
             }
         ]
@@ -775,13 +775,13 @@ const GAMES = [
             {
                 name: 'PB Cash',
                 items: [
-                    { name: '1200 PB Cash', price: 11600 },
-                    { name: '2400 PB Cash', price: 20700 },
-                    { name: '6000 PB Cash', price: 48000 },
-                    { name: '12000 PB Cash', price: 93500 },
-                    { name: '24000 PB Cash', price: 184500 },
-                    { name: '36000 PB Cash', price: 275500 },
-                    { name: '60000 PB Cash', price: 457500 }
+                    { name: '1200 PB Cash', price: 10600 },
+                    { name: '2400 PB Cash', price: 19700 },
+                    { name: '6000 PB Cash', price: 47000 },
+                    { name: '12000 PB Cash', price: 100651 },
+                    { name: '24000 PB Cash', price: 200751 },
+                    { name: '36000 PB Cash', price: 300850 },
+                    { name: '60000 PB Cash', price: 501051 }
                 ]
             }
         ]
@@ -800,32 +800,32 @@ const GAMES = [
             {
                 name: 'Unknown Cash',
                 items: [
-                    { name: '15 UC', price: 9800 },
-                    { name: '25 UC', price: 17125 },
-                    { name: '35 UC', price: 17450 },
-                    { name: '60 UC', price: 17600 },
-                    { name: '50 UC', price: 17950 },
-                    { name: '100 UC', price: 32600 },
-                    { name: '70 UC', price: 32600 },
-                    { name: '125 UC', price: 47400 },
-                    { name: '150 UC', price: 48204 },
-                    { name: '210 UC', price: 61809 },
-                    { name: '200 UC', price: 61850 },
-                    { name: '250 UC', price: 76100 },
-                    { name: '300 UC', price: 79350 },
-                    { name: '350 UC', price: 91850 },
-                    { name: '375 UC', price: 94780 },
-                    { name: '500 UC', price: 126350 },
-                    { name: '525 UC', price: 152050 },
-                    { name: '700 UC', price: 169800 },
-                    { name: '750 UC', price: 190050 },
-                    { name: '1000 UC', price: 251550 },
-                    { name: '1100 UC', price: 265650 },
-                    { name: '1500 UC', price: 349165 },
-                    { name: '1250 UC', price: 357550 },
-                    { name: '1750 UC', price: 415775 },
-                    { name: 'Elite Pass Plus', price: 418050 },
-                    { name: '2500 UC', price: 557550 }
+                    { name: '15 UC', price: 8800 },
+                    { name: '25 UC', price: 16125 },
+                    { name: '35 UC', price: 16450 },
+                    { name: '60 UC', price: 16600 },
+                    { name: '50 UC', price: 16950 },
+                    { name: '100 UC', price: 31600 },
+                    { name: '70 UC', price: 31600 },
+                    { name: '125 UC', price: 46400 },
+                    { name: '150 UC', price: 47204 },
+                    { name: '210 UC', price: 60809 },
+                    { name: '200 UC', price: 60850 },
+                    { name: '250 UC', price: 81510 },
+                    { name: '300 UC', price: 85085 },
+                    { name: '350 UC', price: 98836 },
+                    { name: '375 UC', price: 102059 },
+                    { name: '500 UC', price: 136785 },
+                    { name: '525 UC', price: 165055 },
+                    { name: '700 UC', price: 184581 },
+                    { name: '750 UC', price: 206856 },
+                    { name: '1000 UC', price: 274505 },
+                    { name: '1100 UC', price: 290015 },
+                    { name: '1500 UC', price: 381882 },
+                    { name: '1250 UC', price: 391106 },
+                    { name: '1750 UC', price: 455153 },
+                    { name: 'Elite Pass Plus', price: 457656 },
+                    { name: '2500 UC', price: 611105 }
                 ]
             }
         ]
@@ -844,17 +844,17 @@ const GAMES = [
             {
                 name: 'Gold Star & Pass',
                 items: [
-                    { name: '100 Golden Star', price: 12955 },
-                    { name: 'Weekly Card', price: 13380 },
-                    { name: '310 Golden Star', price: 36613 },
-                    { name: '520 Golden Star', price: 55365 },
-                    { name: 'Super Pass', price: 57588 },
-                    { name: '1.060 Golden Star', price: 108875 },
-                    { name: 'Super Pass Bundle', price: 114230 },
-                    { name: 'Monthly Card', price: 136223 },
-                    { name: 'Super VIP Card', price: 155260 },
-                    { name: '2.180 Golden Star', price: 216050 },
-                    { name: '5.600 Golden Star', price: 618543 }
+                    { name: '100 Golden Star', price: 11955 },
+                    { name: 'Weekly Card', price: 12380 },
+                    { name: '310 Golden Star', price: 35613 },
+                    { name: '520 Golden Star', price: 54365 },
+                    { name: 'Super Pass', price: 56588 },
+                    { name: '1.060 Golden Star', price: 117563 },
+                    { name: 'Super Pass Bundle', price: 123454 },
+                    { name: 'Monthly Card', price: 147646 },
+                    { name: 'Super VIP Card', price: 168586 },
+                    { name: '2.180 Golden Star', price: 235456 },
+                    { name: '5.600 Golden Star', price: 678198 }
                 ]
             }
         ]
@@ -873,9 +873,9 @@ const GAMES = [
             {
                 name: 'Valorant Points',
                 items: [
-                    { name: '475 VP', price: 54699 },
-                    { name: '1000 VP', price: 107372 },
-                    { name: '1475 VP', price: 158797 }
+                    { name: '475 VP', price: 53699 },
+                    { name: '1000 VP', price: 115910 },
+                    { name: '1475 VP', price: 172477 }
                 ]
             }
         ]
@@ -1745,3 +1745,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
