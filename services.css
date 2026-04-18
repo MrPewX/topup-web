@@ -1,0 +1,208 @@
+/* ========================================
+   TOKO KITA - Services Styles
+   (Category Tabs, Brand Logos, Service Pages)
+   ======================================== */
+
+/* ====== Home Category Tabs ====== */
+.home-categories {
+    display: flex;
+    gap: 8px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+}
+.home-categories::-webkit-scrollbar { display: none; }
+
+.home-cat-tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+    font-size: 0.88rem;
+    font-weight: 500;
+    font-family: inherit;
+    outline: none;
+}
+.home-cat-tab:hover {
+    border-color: rgba(77, 124, 254, 0.4);
+    color: rgba(255,255,255,0.85);
+    background: rgba(77, 124, 254, 0.08);
+    transform: translateY(-1px);
+}
+.home-cat-tab.active {
+    background: linear-gradient(135deg, #4d7cfe, #7c5cfc);
+    border-color: transparent;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 20px rgba(77, 124, 254, 0.35);
+}
+.home-cat-tab i {
+    font-size: 1rem;
+}
+
+/* ====== Brand Logo Icons ====== */
+.brand-logo-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.85rem;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    margin-bottom: 4px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    letter-spacing: 0.5px;
+}
+.brand-logo-icon span {
+    font-family: 'Poppins', sans-serif;
+}
+.game-card:hover .brand-logo-icon {
+    transform: scale(1.1) translateY(-2px);
+}
+
+.brand-logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255,255,255,0.15);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ====== Service Type Section ====== */
+.service-type-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 20px 0;
+}
+.service-type-section h3 {
+    margin-bottom: 14px;
+    font-size: 1rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.service-type-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.service-type-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.03);
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.service-type-card i {
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+.service-type-card:hover {
+    border-color: rgba(77, 124, 254, 0.4);
+    color: rgba(255,255,255,0.85);
+    background: rgba(77, 124, 254, 0.06);
+    transform: translateY(-2px);
+}
+.service-type-card.selected {
+    border-color: #4d7cfe;
+    background: rgba(77, 124, 254, 0.12);
+    color: #4d7cfe;
+    box-shadow: 0 0 0 1px #4d7cfe, 0 4px 15px rgba(77, 124, 254, 0.15);
+}
+.service-type-card.selected i {
+    color: #4d7cfe;
+}
+
+/* ====== Info Box ====== */
+.info-box {
+    display: flex;
+    gap: 14px;
+    padding: 18px;
+    border-radius: 14px;
+    background: rgba(77, 124, 254, 0.06);
+    border: 1px solid rgba(77, 124, 254, 0.15);
+    margin-bottom: 24px;
+}
+.info-box-icon {
+    font-size: 1.4rem;
+    color: #4d7cfe;
+    flex-shrink: 0;
+    padding-top: 2px;
+}
+.info-box-content strong {
+    display: block;
+    color: var(--text-primary, rgba(255,255,255,0.92));
+    margin-bottom: 8px;
+    font-size: 0.92rem;
+}
+.info-box-content p {
+    color: var(--text-secondary, rgba(255,255,255,0.65));
+    font-size: 0.84rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+    .home-categories {
+        padding: 0 16px;
+        gap: 6px;
+    }
+    .home-cat-tab {
+        padding: 8px 14px;
+        font-size: 0.82rem;
+    }
+    .service-type-grid {
+        gap: 8px;
+    }
+    .service-type-card {
+        padding: 12px 8px;
+        font-size: 0.80rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-cat-tab span {
+        display: none;
+    }
+    .home-cat-tab {
+        padding: 10px 14px;
+    }
+    .home-cat-tab i {
+        font-size: 1.1rem;
+    }
+}
