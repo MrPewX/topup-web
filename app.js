@@ -729,7 +729,10 @@ const GAMES = [
                 items: [
                     { name: '250 Gems', price: 15550 },
                     { name: '120 Tokens', price: 34475 },
-                    { name: '800 Gems', price: 36994 }
+                    { name: '800 Gems', price: 36994 },
+                    { name: '1.600 Gems + 75 Tokens', price: 45275 },
+                    { name: '5.000 Gems + 275 Tokens', price: 105875 },
+                    { name: '1.300 Tokens', price: 232875 }
                 ]
             }
         ]
@@ -750,7 +753,10 @@ const GAMES = [
                 items: [
                     { name: '60 Candies', price: 14660 },
                     { name: '180 Candies', price: 40175 },
-                    { name: '316 Candies', price: 64543 }
+                    { name: '316 Candies', price: 64543 },
+                    { name: '718 Candies', price: 127525 },
+                    { name: '1368 Candies', price: 251896 },
+                    { name: '2118 Candies', price: 374500 }
                 ]
             }
         ]
@@ -771,7 +777,11 @@ const GAMES = [
                 items: [
                     { name: '1200 PB Cash', price: 11600 },
                     { name: '2400 PB Cash', price: 20700 },
-                    { name: '6000 PB Cash', price: 48000 }
+                    { name: '6000 PB Cash', price: 48000 },
+                    { name: '12000 PB Cash', price: 93500 },
+                    { name: '24000 PB Cash', price: 184500 },
+                    { name: '36000 PB Cash', price: 275500 },
+                    { name: '60000 PB Cash', price: 457500 }
                 ]
             }
         ]
@@ -790,9 +800,32 @@ const GAMES = [
             {
                 name: 'Unknown Cash',
                 items: [
+                    { name: '15 UC', price: 9800 },
+                    { name: '25 UC', price: 17125 },
+                    { name: '35 UC', price: 17450 },
                     { name: '60 UC', price: 17600 },
-                    { name: '325 UC', price: 79350 },
-                    { name: '660 UC', price: 152050 }
+                    { name: '50 UC', price: 17950 },
+                    { name: '100 UC', price: 32600 },
+                    { name: '70 UC', price: 32600 },
+                    { name: '125 UC', price: 47400 },
+                    { name: '150 UC', price: 48204 },
+                    { name: '210 UC', price: 61809 },
+                    { name: '200 UC', price: 61850 },
+                    { name: '250 UC', price: 76100 },
+                    { name: '300 UC', price: 79350 },
+                    { name: '350 UC', price: 91850 },
+                    { name: '375 UC', price: 94780 },
+                    { name: '500 UC', price: 126350 },
+                    { name: '525 UC', price: 152050 },
+                    { name: '700 UC', price: 169800 },
+                    { name: '750 UC', price: 190050 },
+                    { name: '1000 UC', price: 251550 },
+                    { name: '1100 UC', price: 265650 },
+                    { name: '1500 UC', price: 349165 },
+                    { name: '1250 UC', price: 357550 },
+                    { name: '1750 UC', price: 415775 },
+                    { name: 'Elite Pass Plus', price: 418050 },
+                    { name: '2500 UC', price: 557550 }
                 ]
             }
         ]
@@ -813,7 +846,15 @@ const GAMES = [
                 items: [
                     { name: '100 Golden Star', price: 12955 },
                     { name: 'Weekly Card', price: 13380 },
-                    { name: '310 Golden Star', price: 36613 }
+                    { name: '310 Golden Star', price: 36613 },
+                    { name: '520 Golden Star', price: 55365 },
+                    { name: 'Super Pass', price: 57588 },
+                    { name: '1.060 Golden Star', price: 108875 },
+                    { name: 'Super Pass Bundle', price: 114230 },
+                    { name: 'Monthly Card', price: 136223 },
+                    { name: 'Super VIP Card', price: 155260 },
+                    { name: '2.180 Golden Star', price: 216050 },
+                    { name: '5.600 Golden Star', price: 618543 }
                 ]
             }
         ]
