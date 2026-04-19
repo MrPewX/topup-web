@@ -70,18 +70,18 @@ const GAMES = [
             {
                 name: 'Bonds & Packs',
                 items: [
-                    { name: 'Pilihan Pemula', price: 13214 },
-                    { name: '60 Bonds', price: 14757 },
-                    { name: 'Kotak Anti Peluru 30 Hari', price: 37850 },
+                    { name: 'Pilihan Pemula', price: 13000 },
+                    { name: '60 Bonds', price: 14200 },
+                    { name: 'Kotak Anti Peluru 30 Hari', price: 38800 },
                     { name: 'Battle Pass Lanjutan', price: 61420 },
                     { name: 'Percobaan Elite 30 Hari', price: 65910 },
                     { name: '310 Bonds', price: 68878 },
-                    { name: 'Kotak Komposit 30 Hari', price: 120548 },
-                    { name: '630 Bonds', price: 148349 },
+                    { name: 'Kotak Komposit 30 Hari', price: 117548 },
+                    { name: '630 Bonds', price: 142300 },
                     { name: 'Battle Pass Premium', price: 192994 },
-                    { name: '1.580 Bonds', price: 368917 },
-                    { name: '3.200 Bonds', price: 745636 },
-                    { name: '6.500 Bonds', price: 1494842 }
+                    { name: '1.580 Bonds', price: 354917 },
+                    { name: '3.200 Bonds', price: 712636 },
+                    { name: '6.500 Bonds', price: 1434842 }
                 ]
             }
         ]
@@ -100,12 +100,12 @@ const GAMES = [
             {
                 name: 'Vouchers',
                 items: [
-                    { name: '40 Vouchers', price: 10655 },
-                    { name: '90 Vouchers', price: 19709 },
-                    { name: '230 Vouchers', price: 46873 },
-                    { name: '470 Vouchers', price: 99127 },
+                    { name: '40 Vouchers', price: 9699 },
+                    { name: '90 Vouchers', price: 19300 },
+                    { name: '230 Vouchers', price: 47873 },
+                    { name: '470 Vouchers', price: 96127 },
                     { name: '950 Vouchers', price: 193408 },
-                    { name: '1430 Vouchers', price: 296004 }
+                    { name: '1430 Vouchers', price: 290004 }
                 ]
             }
         ]
@@ -124,8 +124,11 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '42 Diamonds', price: 14500 },
-                    { name: '297 Diamonds', price: 113301 }
+                    { name: '55 Diamonds', price: 16800 },
+                    { name: '100 Diamonds', price: 32300 },
+                    { name: '200 Diamonds', price: 64600 },
+                    { name: '500 Diamonds', price: 162500 },
+                    { name: '1000 Diamonds', price: 324500 }
                 ]
             }
         ]
@@ -145,15 +148,15 @@ const GAMES = [
                 name: 'Gold & Pass',
                 items: [
                     { name: 'Ultra Skin Lucky Chest', price: 7504 },
-                    { name: '100 Gold', price: 13096 },
+                    { name: '100 Gold', price: 12596 },
                     { name: 'Level Up Pass', price: 26254 },
                     { name: '300 Gold', price: 36741 },
                     { name: 'Strike Pass Elite', price: 51263 },
-                    { name: '500 Gold', price: 60470 },
+                    { name: '500 Gold', price: 61470 },
                     { name: 'Strike Pass Elite+', price: 124023 },
-                    { name: '1.000 Gold', price: 131411 },
-                    { name: '2.000 Gold', price: 261419 },
-                    { name: '5.000 Gold', price: 652495 }
+                    { name: '1.000 Gold', price: 123411 },
+                    { name: '2.000 Gold', price: 258419 },
+                    { name: '5.000 Gold', price: 612495 }
                 ]
             }
         ]
@@ -173,14 +176,14 @@ const GAMES = [
                 name: 'CP',
                 items: [
                     { name: '32 CP', price: 5748 },
-                    { name: '63 CP', price: 10503 },
-                    { name: '128 CP', price: 19709 },
-                    { name: '321 CP', price: 46773 },
-                    { name: '645 CP', price: 99347 },
-                    { name: '800 CP', price: 120356 },
-                    { name: '1.373 CP', price: 162215 },
-                    { name: '2.059 CP', price: 322108 },
-                    { name: '3.564 CP', price: 503278 }
+                    { name: '63 CP', price: 9703 },
+                    { name: '128 CP', price: 19309 },
+                    { name: '321 CP', price: 47773 },
+                    { name: '645 CP', price: 96347 },
+                    { name: '800 CP', price: 119356 },
+                    { name: '1.373 CP', price: 188215 },
+                    { name: '2.059 CP', price: 293108 },
+                    { name: '3.564 CP', price: 482278 }
                 ]
             }
         ]
@@ -199,14 +202,18 @@ const GAMES = [
             {
                 name: 'Silver & FC Points',
                 items: [
-                    { name: '39 Silver', price: 7391 },
-                    { name: '40 FC Points', price: 7441 },
-                    { name: '99 Silver', price: 16292 },
-                    { name: '100 FC Points', price: 16342 },
-                    { name: '499 Silver', price: 81758 },
-                    { name: '520 FC Points', price: 81813 },
-                    { name: '999 Silver', price: 164217 },
-                    { name: '1.070 FC Points', price: 164272 }
+                    { name: '39 Silver', price: 6600 },
+                    { name: '40 FC Points', price: 6700 },
+                    { name: '99 Silver', price: 16000 },
+                    { name: '100 FC Points', price: 16100 },
+                    { name: '499 Silver', price: 78500 },
+                    { name: '520 FC Points', price: 78813 },
+                    { name: '999 Silver', price: 159217 },
+                    { name: '1.070 FC Points', price: 159272 },
+                    { name: '1.999 Silver', price: 328434 },
+                    { name: '2.200 FC Points', price: 328489 },
+                    { name: '4.999 Silver', price: 801000 },
+                    { name: '5.750 FC Points', price: 801038 }
                 ]
             }
         ]
@@ -225,21 +232,21 @@ const GAMES = [
             {
                 name: 'Diamonds',
                 items: [
-                    { name: '5 Diamond', price: 1879 },
-                    { name: '10 Diamond', price: 2793 },
-                    { name: '12 Diamond', price: 2950 },
-                    { name: '15 Diamond', price: 3617 },
-                    { name: '20 Diamond', price: 4441 },
-                    { name: '25 Diamond', price: 5244 },
-                    { name: '30 Diamond', price: 6064 },
-                    { name: '50 Diamond', price: 7719 },
-                    { name: '55 Diamond', price: 8563 },
-                    { name: '60 Diamond', price: 9383 },
+                    { name: '5 Diamond', price: 1000 },
+                    { name: '10 Diamond', price: 1900 },
+                    { name: '12 Diamond', price: 2088 },
+                    { name: '15 Diamond', price: 3000 },
+                    { name: '20 Diamond', price: 4000 },
+                    { name: '25 Diamond', price: 4800 },
+                    { name: '30 Diamond', price: 5700 },
+                    { name: '50 Diamond', price: 8700 },
+                    { name: '55 Diamond', price: 8800 },
+                    { name: '60 Diamond', price: 8983 },
                     { name: '70 Diamond', price: 10135 },
-                    { name: '75 Diamond', price: 11003 },
+                    { name: '75 Diamond', price: 10503 },
                     { name: '80 Diamond', price: 11875 },
-                    { name: '90 Diamond', price: 13528 },
-                    { name: '100 Diamond', price: 14344 },
+                    { name: '90 Diamond', price: 14528 },
+                    { name: '100 Diamond', price: 15344 },
                     { name: '120 Diamond', price: 16820 },
                     { name: '130 Diamond', price: 18468 },
                     { name: '140 Diamond', price: 19002 },
@@ -309,14 +316,14 @@ const GAMES = [
             {
                 name: 'Pass & Membership',
                 items: [
-                    { name: 'Level Up Pass - Level 6', price: 6169 },
-                    { name: 'Level Up Pass - Level 10', price: 9528 },
-                    { name: 'Level Up Pass - Level 15', price: 9528 },
-                    { name: 'Level Up Pass - Level 20', price: 9528 },
-                    { name: 'Level Up Pass - Level 25', price: 9528 },
-                    { name: 'Level Up Pass - Level 30', price: 14672 },
-                    { name: 'Member Mingguan', price: 28701 },
-                    { name: 'Booyah Pass', price: 42739 },
+                    { name: 'Level Up Pass - Level 6', price: 5400 },
+                    { name: 'Level Up Pass - Level 10', price: 9000 },
+                    { name: 'Level Up Pass - Level 15', price: 9020 },
+                    { name: 'Level Up Pass - Level 20', price: 9030 },
+                    { name: 'Level Up Pass - Level 25', price: 9040 },
+                    { name: 'Level Up Pass - Level 30', price: 14372 },
+                    { name: 'Member Mingguan', price: 29701 },
+                    { name: 'Booyah Pass', price: 43739 },
                     { name: 'Member Mingguan 2X', price: 56770 },
                     { name: 'Member Bulanan', price: 90588 },
                     { name: 'Member Mingguan x3', price: 92020 },
@@ -350,15 +357,15 @@ const GAMES = [
                     { name: 'Kartu Mingguan', price: 27823 },
                     { name: '250 RC', price: 42098 },
                     { name: 'Kartu Bulanan', price: 45195 },
-                    { name: '450 RC', price: 75071 },
+                    { name: '450 RC', price: 71071 },
                     { name: 'Quick Glory Pass', price: 76175 },
-                    { name: 'Growth Fund', price: 97149 },
-                    { name: 'Dana Elit Rebate Lv 80', price: 128695 },
-                    { name: 'Glory Pass Premium', price: 145682 },
-                    { name: '920 RC', price: 148735 },
-                    { name: '1.850 RC', price: 298051 },
-                    { name: '2.800 RC', price: 447368 },
-                    { name: '4.750 RC', price: 740356 }
+                    { name: 'Growth Fund', price: 93149 },
+                    { name: 'Dana Elit Rebate Lv 80', price: 126695 },
+                    { name: 'Glory Pass Premium', price: 143682 },
+                    { name: '920 RC', price: 143735 },
+                    { name: '1.850 RC', price: 289051 },
+                    { name: '2.800 RC', price: 434368 },
+                    { name: '4.750 RC', price: 724356 }
                 ]
             }
         ]
